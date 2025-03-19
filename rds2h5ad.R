@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # rds2h5ad.R: Convert an RDS file (Seurat or monocle3 cell_data_set) to an AnnData (H5AD) file.
-# Usage: Rscript master_converter.R <input_file.RDS>
+# Usage: Rscript rds2h5ad.R <input_file.RDS>
 
 # --- Step 1: Ensure BiocManager is installed and install Bioconductor version 3.20 ---
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
